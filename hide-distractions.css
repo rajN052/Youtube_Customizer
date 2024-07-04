@@ -1,0 +1,33 @@
+/* Hide homepage grid */
+.grid-disabled.grid.ytd-browse.style-scope > .ytd-two-column-browse-results-renderer.style-scope {
+    display: none !important;
+  }
+  /* Hide sidebar recommendations */
+  ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope {
+    display: none !important;
+  }
+  
+  /* Hide end screen tiles */
+  .ytp-endscreen-content {
+    display: none !important;
+  }
+
+  #logo {
+    display: none !important
+  }
+  
+#guide-button {
+  display: none   !important;
+}
+ytd-reel-shelf-renderer {
+    display: none !important;
+  }
+  .parent-container a[title="Shorts"] {
+    display: none !important;
+  }  
+  [title="Shorts"] {
+    display: none !important;
+  }
+  [label="Guide"] {
+    display: none !important;
+  }
